@@ -1,0 +1,66 @@
+.cham-tron-dieu-khien{
+    -fx-stroke-width:1;
+    -fx-fill:rgb(0, 0, 0, 0);
+    -fx-stroke:#DF013A;
+}
+#cham-tron-dieu-khien-5:hover,#cham-tron-dieu-khien-7:hover {
+    -fx-cursor:h-resize;
+}
+#cham-tron-dieu-khien-4:hover,#cham-tron-dieu-khien-6:hover {
+    -fx-cursor: n-resize;
+}
+#cham-tron-dieu-khien-0:hover,#cham-tron-dieu-khien-2:hover {
+    -fx-cursor: nw-resize;
+}
+#cham-tron-dieu-khien-1:hover,#cham-tron-dieu-khien-3:hover {
+    -fx-cursor: ne-resize;
+}
+#Khung-Bao{
+    -fx-cursor:move;
+    -fx-fill:rgb(0,0,0,0);
+    -fx-stroke: #2E9AFE;
+    -fx-stroke-width:1;
+    -fx-stroke-dash-array:4;
+}
+#Chon-Vung
+{
+    -fx-cursor:move;
+    -fx-stroke: #2E9AFE;
+    -fx-stroke-dash-array:4;
+}
+#polygon-duongThang:hover{
+    -fx-cursor:move;
+
+}
+
+
+/*#pane:hover{
+    -fx-cursor:crosshair;
+}*/
+
+.text-area {
+    -fx-background-color: rgba(0, 0, 0,0);
+    -fx-prompt-text-fill:Red;
+    -fx-highlight-fill: #0099ff;
+    -fx-text-fill: #000000;
+    -fx-scroll:none;
+    -fx-padding:0;
+}
+
+.text-area .scroll-pane  .text-area:disabled {
+    -fx-background-color: Blue;
+}
+.text-area .scroll-pane .viewport  {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.scroll-pane
+{
+    -fx-hbar-policy:never;
+    -fx-vbar-policy:never;
+}
+#textAria{
+    -fx-opacity: 1;
+}

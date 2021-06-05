@@ -1,0 +1,137 @@
+#IDHeader-DieuKhien{
+    -fx-background-color:#040012;
+}
+#congCu-DieuKhienTop, #congCuVanBan-DieuKhienTop, #IDLeft-DieuKhien, #netVe1Left, #netVe2Left, #netVe3Left, #netVe4Left,#chonHinh-LeftDieuKhien{
+    -fx-background-color:#808080;
+
+}
+#congCuVanBan-DieuKhienTop{
+    -fx-padding: 5px;
+    -fx-spacing:5px;
+}
+#colorPicker-TopDieuKhien,#menuHinhTopDieuKhien
+{
+    -fx-background-color:#BDBDBD;
+    -fx-stroke:#BDBDBD;
+}
+#IDLeft-DieuKhien{
+
+}
+#IDFooter-DieuKhien{
+    -fx-padding:5px 5px 5px 10px;
+    -fx-background-color:#808080;
+}
+#chonHinh-LeftDieuKhien:hover, #chonNet-LeftDieuKhien:hover,
+#netVe1Left:hover, #netVe2Left:hover, #netVe3Left:hover, #netVe4Left:hover{
+    -fx-border:none;
+    -fx-background-color:#7A7A7A;
+}
+.menuItem:hover, .toggleButton:hover
+{
+    -fx-background-color:#7A7A7A;
+}
+
+#menuHinhLeftDieuKhien,#menuHinhLeftDieuKhien:hover,.menuItem
+,#scrollMenuHinhLeftChonHinh,#scrollMenuHinhLeftChonHinh:hover,#paneChuaHinh-LeftDieuKhien:hover,#paneChuaHinh-LeftDieuKhien{
+    -fx-background-color:#848484;
+    -fx-text-fill:#ffffff;
+}
+.menu:hover, .menu:showing{
+    -fx-background-color:#808080;
+}
+
+.button,.button:focus, #chonHinh-LeftDieuKhien, #chonNet-LeftDieuKhien, .toggleButton{
+    -fx-background-color:#808080;
+    -fx-padding:3;
+    -fx-spacing:2;
+    -fx-border:none;
+}
+
+.toggleButton:selected
+{
+    -fx-background-color:#5E5D5D;
+}
+.toggleButtonCongCuTren:selected{
+    -fx-background-color:none;
+}
+.font{
+    -fx-background:#BDBDBD;
+    -fx-background-color:#BDBDBD ;
+    -fx-stroke:#BDBDBD;
+}
+#khungChu{
+    -fx-control-inner-background:rgb(0, 0, 0, 0);
+}
+#mauDen{
+    -fx-background-color:#000000;
+}
+#mauDen:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauDo{
+    -fx-background-color:RED;
+}
+#mauDo:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauTrang{
+    -fx-background-color:WHITE;
+}
+#mauTrang:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauCam{
+    -fx-background-color:ORANGE;
+}
+#mauCam:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauVang{
+    -fx-background-color:YELLOW;
+}
+#mauVang:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauXanhLa{
+    -fx-background-color:GREEN;
+}
+#mauXanhLa:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauXanhDuong {
+    -fx-background-color:BLUE;
+}
+#mauXanhDuong:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauHong {
+    -fx-background-color:PINK;
+}
+#mauHong:hover{
+    -fx-border-color:#46F4EB;
+}
+#mauTim{
+    -fx-background-color:PURPLE;
+}
+#mauTim:hover{
+    -fx-border-color:#46F4EB;
+}
+.slider {
+    /* default track color: */
+    -slider-filled-track-color:#3F3D3D ;
+    -slider-track-color: -slider-filled-track-color ;
+}
+
+/* Make thumb same color as filled part of track */
+.slider .thumb {
+    -fx-background-color: black ;
+}
+
+.slider .track {
+    -fx-background-color: -slider-track-color ;
+}
+#scrollPane{
+    -fx-hbar-policy:as-needed;
+    -fx-vbar-policy:as-needed;
+}
+/*hop thoai co save khong khi tao file moi*/
